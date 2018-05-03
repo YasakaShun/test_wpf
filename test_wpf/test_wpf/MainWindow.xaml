@@ -5,8 +5,18 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:test_wpf"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
-        
-    </Grid>
+        Title="社員"
+        WindowStartupLocation="CenterScreen"
+        Height="220" Width="480">
+    <Canvas Height="Auto" Width="Auto">
+        <Label Content="氏名" Canvas.Left="16" Canvas.Top="18" Height="28" Width="70" HorizontalContentAlignment="Right" VerticalContentAlignment="Center"/>
+        <Label Content="住所" Canvas.Left="16" Canvas.Top="53" Height="28" Width="70" HorizontalContentAlignment="Right" VerticalContentAlignment="Center"/>
+        <Label Content="電話番号" Canvas.Left="16" Canvas.Top="91" Height="28" Width="70" HorizontalContentAlignment="Right" VerticalContentAlignment="Center"/>
+        <TextBlock Canvas.Left="93" Canvas.Top="21" Height="23" Width="340" TextAlignment="Left" VerticalAlignment="Center"/>
+        <TextBlock Canvas.Left="93" Canvas.Top="58" Height="23" Width="340" TextAlignment="Left" VerticalAlignment="Center"/>
+        <TextBlock Canvas.Left="93" Canvas.Top="96" Height="23" Width="340" TextAlignment="Left" VerticalAlignment="Center"/>
+        <Button Content="登録" Canvas.Left="283" Canvas.Top="146" Height="23" Width="75" />
+        <Button Content="キャンセル" Canvas.Left="364" Canvas.Top="146" Height="23" Width="75" />
+    </Canvas>
+
 </Window>
