@@ -1,0 +1,16 @@
+﻿<Window x:Class="Layout04.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Layout04"
+        mc:Ignorable="d"
+        Title="MediaPlayer" Height="350" Width="525" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <MediaElement Name="MediaElement1" Margin="0" UnloadedBehavior="Manual" LoadedBehavior="Manual" Source="D:\movie\sample\fish3.mp4"/>
+        <Button x:Name="BtnPlay" Content="開始" HorizontalAlignment="Right" Margin="0,0,174,12" VerticalAlignment="Bottom" Width="75" Height="23" Opacity="0.4" Click="BtnPlay_Click"/>
+        <Button x:Name="BtnPause" Content="一時停止" HorizontalAlignment="Right" Margin="0,0,93,12" VerticalAlignment="Bottom" Width="75" Height="23" Opacity="0.4" Click="BtnPause_Click"/>
+        <Button x:Name="BtnStop" Content="停止" HorizontalAlignment="Right" Margin="0,0,12,12" VerticalAlignment="Bottom" Width="75" Height="23" Opacity="0.4"/>
+
+    </Grid>
+</Window>
